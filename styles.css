@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro:700);
+body {
+   background: linear-gradient(to right, #d2dfed 10%, #c8d7eb 26%, #bed0ea 81%, #a6c0e3 51%, #afc7e8 62%, #bad0ef 75%, #99b5db 88%, #799bc8 100%);
+   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d2dfed', endColorstr='#799bc8', GradientType=1);
+}
+div{
+   /* font-family: 'Lobster', cursive; */
+   /* letter-spacing: 9px; */   
+   font-family: 'Maven Pro', sans-serif;
+   letter-spacing: -4px;
+   font-weight: bold;
+   word-spacing: 20px;
+   font-size: 6em;
+   text-align: center;
+   color: transparent;
+   padding-top: 20px;
+   text-shadow: #000 .5px 1px 0;
+}
+
+div:first-letter {
+   color: #799bc8;
+   text-shadow: #000 .5px .5px .5px;
+}
+
+.blast {
+   display: inline-block;
+   opacity: 0;
+   color: #9e94ba; /*#b0aac2;*/
+}
+
+.blast:nth-child(1),
+.blast:nth-child(6),
+.blast:nth-child(9),
+.blast:nth-child(14),
+.blast:nth-child(17){
+   color: #b3c3d8; /*#a8b6bf;*/
+}
